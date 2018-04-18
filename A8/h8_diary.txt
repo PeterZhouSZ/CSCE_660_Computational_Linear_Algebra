@@ -1,0 +1,596 @@
+H =
+
+  10×10 logical array
+
+   1   0   0   0   0   0   0   1   0   0
+   1   1   0   0   0   0   0   0   1   0
+   0   1   1   0   0   0   0   1   0   0
+   1   0   1   0   0   0   0   0   0   0
+   0   1   0   0   0   0   1   1   1   1
+   0   0   0   1   0   0   1   0   0   0
+   0   0   0   0   0   1   0   0   0   0
+   0   1   0   0   0   0   0   0   0   0
+   1   0   0   1   0   0   0   0   0   0
+   1   1   0   0   0   0   0   0   0   0
+
+
+ans =
+
+     5     5     2     2     0     1     2     3     2     1
+
+# iterations: 31
+
+Prob = 
+
+  struct with fields:
+
+      name: 'MathWorks/Harvard500'
+     title: 'Web matrix (Numerical Computing with MATLAB, Moler, 2004)'
+         A: [500×500 double]
+        id: 1172
+      kind: 'directed graph'
+       aux: [1×1 struct]
+      date: '2002'
+    author: 'C. Moler'
+        ed: 'T. Davis'
+
+Elapsed time is 0.005896 seconds.
+# iterations: 69
+  1   1: 8.234e-02 http://www.harvard.edu                                                                       
+  2  10: 1.610e-02 http://www.hbs.edu                                                                           
+  3  42: 1.607e-02 http://search.harvard.edu:8765/custom/query.html                                             
+  4 130: 1.595e-02 http://www.med.harvard.edu                                                                   
+  5  18: 1.348e-02 http://www.gse.harvard.edu                                                                   
+  6  15: 1.288e-02 http://www.hms.harvard.edu                                                                   
+  7   9: 1.124e-02 http://www.ksg.harvard.edu                                                                   
+  8  17: 1.093e-02 http://www.hsph.harvard.edu                                                                  
+  9  46: 9.698e-03 http://www.gocrimson.com                                                                     
+ 10  13: 8.445e-03 http://www.hsdm.med.harvard.edu                                                              
+ 11 260: 8.318e-03 http://search.harvard.edu:8765/query.html                                                    
+ 12  19: 8.093e-03 http://www.radcliffe.edu                                                                     
+ 13 121: 7.725e-03 http://www.hsdm.harvard.edu                                                                  
+ 14  52: 7.522e-03 http://whitepages.med.harvard.edu                                                            
+ 15   3: 7.498e-03 http://lib.harvard.edu                                                                       
+ 16 222: 7.482e-03 http://www.gse.harvard.edu/sitemap.html                                                      
+ 17 223: 7.482e-03 http://www.gse.harvard.edu/search.html                                                       
+ 18 262: 7.109e-03 http://www.dana-farber.org                                                                   
+ 19 101: 6.888e-03 http://www.hbs.edu:8765                                                                      
+ 20 102: 6.888e-03 http://www.hbs.edu/siteindex/siteindex.html                                                  
+ 21 214: 6.872e-03 http://www.gse.harvard.edu/news                                                              
+ 22  16: 6.805e-03 http://www.hds.harvard.edu                                                                   
+ 23   7: 6.632e-03 http://search.harvard.edu:8765                                                               
+ 24 132: 6.486e-03 http://www.intelihealth.com                                                                  
+ 25  26: 6.237e-03 http://www.news.harvard.edu/gazette/calendar                                                 
+ 26  27: 6.237e-03 http://www.researchmatters.harvard.edu                                                       
+ 27   8: 6.043e-03 http://www.fas.harvard.edu                                                                   
+ 28   6: 5.772e-03 http://www.haa.harvard.edu                                                                   
+ 29  12: 5.750e-03 http://www.dce.harvard.edu                                                                   
+ 30  85: 5.584e-03 http://www.harvard.edu/copyright.html                                                        
+ 31 161: 5.569e-03 http://www.harvardpilgrim.org                                                                
+ 32 329: 5.560e-03 http://gocrimson.ocsn.com/tickets/harv-tickets.html                                          
+ 33 335: 5.535e-03 http://www.studentadvantage.com                                                              
+ 34  11: 5.395e-03 http://www.law.harvard.edu                                                                   
+ 35 249: 5.312e-03 http://www.news.harvard.edu/gazette/search                                                   
+ 36 261: 5.093e-03 http://www.dana-farber.org/favicon.ico                                                       
+ 37 281: 5.093e-03 http://www.jimmyfund.org                                                                     
+ 38   4: 4.765e-03 http://www.president.harvard.edu                                                             
+ 39 344: 4.680e-03 http://fas-www.harvard.edu/fas/directory.shtml                                               
+ 40 106: 4.627e-03 http://www.library.hbs.edu                                                                   
+ 41   5: 4.601e-03 http://www.athletics.harvard.edu                                                             
+ 42 229: 4.425e-03 http://www.radcliffe.edu/administration/index.html                                           
+ 43 231: 4.425e-03 http://www.radcliffe.edu/students/index.html                                                 
+ 44 232: 4.425e-03 http://www.radcliffe.edu/dev/index.html                                                      
+ 45 234: 4.425e-03 http://www.radcliffe.edu/alumnae/index.html                                                  
+ 46 236: 4.425e-03 http://www.radcliffe.edu/about/index.html                                                    
+ 47 237: 4.425e-03 http://www.radcliffe.edu/research/index.html                                                 
+ 48 238: 4.425e-03 http://www.radcliffe.edu/fellowships/index.html                                              
+ 49 239: 4.425e-03 http://www.radcliffe.edu/schles/index.html                                                   
+ 50 240: 4.425e-03 http://www.radcliffe.edu/events/index.html                                                   
+ 51   2: 4.402e-03 http://atwork.harvard.edu                                                                    
+ 52 126: 4.292e-03 http://medapps.med.harvard.edu/eventscal/asp-html/index.asp                                  
+ 53 241: 4.156e-03 http://www.radcliffe.edu/murray/index.html                                                   
+ 54 230: 4.057e-03 http://www.radcliffe.edu/contacts/index.html                                                 
+ 55 233: 4.057e-03 http://www.radcliffe.edu/news/index.html                                                     
+ 56 235: 4.057e-03 http://www.radcliffe.edu/search/SearchRad.html                                               
+ 57 358: 3.978e-03 http://www.hsdm.med.harvard.edu/pages/edu.htm                                                
+ 58  22: 3.914e-03 http://www.news.harvard.edu/gazette/daily/0302/03-berman.html                                
+ 59 107: 3.767e-03 http://harvardbusinessonline.hbsp.harvard.edu                                                
+ 60  23: 3.753e-03 http://www.news.harvard.edu/gazette/2003/01.30/13-naturalgas.html                            
+ 61 200: 3.714e-03 http://www.gse.harvard.edu/faculty_profiles.html                                             
+ 62 258: 3.545e-03 http://www.news.harvard.edu/guide                                                            
+ 63 259: 3.545e-03 http://www.news.harvard.edu/tour                                                             
+ 64  14: 3.429e-03 http://www.gsd.harvard.edu                                                                   
+ 65  44: 3.414e-03 http://www.provost.harvard.edu                                                               
+ 66 123: 3.307e-03 http://www.hmcnet.harvard.edu                                                                
+ 67 317: 3.246e-03 http://gocrimson.ocsn.com                                                                    
+ 68  20: 3.239e-03 http://www.news.harvard.edu/gazette/daily/0302/03-shuttle.html                               
+ 69  21: 3.239e-03 http://www.news.harvard.edu/gazette/2003/01.30/17-caspian.html                               
+ 70  24: 3.239e-03 http://www.dfci.harvard.edu/abo/news/press/013003.asp                                        
+ 71  25: 3.239e-03 http://www.news.harvard.edu/gazette/2003/01.30/01-mercury.html                               
+ 72 282: 3.198e-03 http://www.researchmatters.harvard.edu/search                                                
+ 73 318: 3.080e-03 http://gocrimson.ocsn.com/ot/broadcastinfo.html                                              
+ 74 319: 3.080e-03 http://gocrimson.ocsn.com/compliance/harv-compliance.html                                    
+ 75 320: 3.080e-03 http://gocrimson.ocsn.com/directions/harv-directions.html                                    
+ 76 321: 3.080e-03 http://gocrimson.ocsn.com/facilities/rec_facilities.html                                     
+ 77 322: 3.080e-03 http://gocrimson.ocsn.com/trads/harv-trads.html                                              
+ 78 324: 3.080e-03 http://gocrimson.ocsn.com/ot/harv-recreation.html                                            
+ 79 325: 3.080e-03 http://gocrimson.ocsn.com/recruiting/harv-recruiting.html                                    
+ 80 326: 3.080e-03 http://www.fas.harvard.edu/~athletic/schedule_winter.html                                    
+ 81 327: 3.080e-03 http://gocrimson.ocsn.com/site-map/harv-site-map.html                                        
+ 82 328: 3.080e-03 http://gocrimson.ocsn.com/staffdir/harv-staffdir.html                                        
+ 83 330: 3.080e-03 http://www.varsityclub.harvard.edu                                                           
+ 84 331: 3.080e-03 http://www.ocsn.com                                                                          
+ 85 315: 2.917e-03 http://www.fas.harvard.edu/~athletic/tickets                                                 
+ 86 316: 2.917e-03 http://www.gocrimson.com/ot/eclubnews.html                                                   
+ 87 323: 2.917e-03 http://gocrimson.ocsn.com/links/harv-links.html                                              
+ 88 170: 2.899e-03 http://www.hds.harvard.edu/afa                                                               
+ 89 173: 2.899e-03 http://www.hds.harvard.edu/library                                                           
+ 90 177: 2.899e-03 http://www.hds.harvard.edu/dpa                                                               
+ 91 169: 2.890e-03 http://www.hds.harvard.edu/about.html                                                        
+ 92 171: 2.890e-03 http://www.hds.harvard.edu/facstaff.html                                                     
+ 93 172: 2.890e-03 http://www.hds.harvard.edu/students.html                                                     
+ 94 174: 2.890e-03 http://www.hds.harvard.edu/administration.html                                               
+ 95 176: 2.890e-03 http://www.hds.harvard.edu/centers.html                                                      
+ 96 178: 2.890e-03 http://www.hds.harvard.edu/publications.html                                                 
+ 97 179: 2.890e-03 http://www.hds.harvard.edu/dpa/alums                                                         
+ 98 263: 2.780e-03 http://www.dana-farber.org/abo                                                               
+ 99 264: 2.780e-03 http://www.dana-farber.org/abo/news                                                          
+100 266: 2.780e-03 http://www.dana-farber.org/abo/mission                                                       
+101 267: 2.780e-03 http://www.dana-farber.org/abo/history                                                       
+102 274: 2.780e-03 http://www.dana-farber.org/abo/danafarber                                                    
+103 275: 2.780e-03 http://www.dana-farber.org/abo/medical                                                       
+104 276: 2.780e-03 http://www.dana-farber.org/abo/community                                                     
+105 277: 2.780e-03 http://www.dana-farber.org/abo/affiliations                                                  
+106 278: 2.780e-03 http://www.dana-farber.org/abo/departmentindex                                               
+107 279: 2.780e-03 http://www.dana-farber.org/abo/working                                                       
+108 280: 2.780e-03 http://www.dana-farber.org/abo/award                                                         
+109  62: 2.685e-03 http://www.gsas.harvard.edu                                                                  
+110 138: 2.684e-03 http://www.hms.harvard.edu/research.html                                                     
+111 150: 2.652e-03 http://www.hms.harvard.edu/administration.html                                               
+112 148: 2.595e-03 http://www.hmcnet.harvard.edu/clinical/index.html                                            
+113 133: 2.521e-03 http://www.hms.harvard.edu/education.html                                                    
+114 201: 2.483e-03 http://www.gse.harvard.edu/research.html                                                     
+115  96: 2.455e-03 http://www.hbs.edu/research                                                                  
+116 120: 2.392e-03 http://www.dce.harvard.edu/pubs                                                              
+117 194: 2.386e-03 http://holliscatalog.harvard.edu                                                             
+118  95: 2.351e-03 http://www.hbs.edu/career_services                                                           
+119 300: 2.303e-03 http://hbsworkingknowledge.hbs.edu                                                           
+120 182: 2.253e-03 http://www.yourcancerrisk.harvard.edu                                                        
+121 183: 2.253e-03 http://www.worldhealthnews.harvard.edu                                                       
+122 463: 2.245e-03 http://www.hsdm.med.harvard.edu/pages/depts/restor/endo/endo.htm                             
+123 500: 2.245e-03 http://www.hsdm.med.harvard.edu/pages/depts/restor/implant/implant.htm                       
+124 181: 2.096e-03 http://www.whomentoredyou.org                                                                
+125 184: 2.096e-03 http://www.washingtonpost.com/wp-dyn/articles/A30481-2003Jan8.html                           
+126 208: 2.031e-03 http://www.gse.harvard.edu/facstaff.html                                                     
+127  87: 2.005e-03 http://www.ksg.harvard.edu/iop                                                               
+128 122: 2.004e-03 http://www.cabengo.com                                                                       
+129 104: 1.965e-03 http://www.hbs.edu/about                                                                     
+130 191: 1.943e-03 http://www.gse.harvard.edu/~oasweb                                                           
+131 210: 1.914e-03 http://www.gse.harvard.edu/alumni                                                            
+132 129: 1.901e-03 http://www.countway.med.harvard.edu                                                          
+133  92: 1.858e-03 http://www.ifactory.com                                                                      
+134 103: 1.795e-03 http://www.hbs.edu/about/contact.html                                                        
+135 105: 1.795e-03 http://www.hbs.edu/it                                                                        
+136 108: 1.795e-03 http://www.hbs.edu/hr                                                                        
+137  76: 1.761e-03 http://www.ksg.harvard.edu/kennedy.shtml                                                     
+138  28: 1.758e-03 http://www.universityombuds.harvard.edu                                                      
+139  29: 1.758e-03 http://www.president.harvard.edu/speeches/2003/mlk.html                                      
+140  30: 1.758e-03 http://atwork.harvard.edu/hrproj-hotline.html                                                
+141  40: 1.756e-03 http://hul.harvard.edu                                                                       
+142  43: 1.751e-03 http://presidenttest.harvard.edu/search                                                      
+143 225: 1.747e-03 http://gseweb.harvard.edu/aie                                                                
+144  97: 1.745e-03 http://hbswk.hbs.edu                                                                         
+145 190: 1.698e-03 http://hugse9.harvard.edu/gsedata/calendar_pkg.academic_calendar                             
+146 298: 1.693e-03 http://www.macromedia.com/go/getflashplayer                                                  
+147 385: 1.687e-03 http://www.hms.harvard.edu/ambulatory/index.html                                             
+148 185: 1.685e-03 http://www.gse.harvard.edu/admissions                                                        
+149 187: 1.667e-03 http://www.gse.harvard.edu/academics.html                                                    
+150  39: 1.666e-03 http://hul.harvard.edu/calendar                                                              
+151  84: 1.646e-03 http://ksgnotes1.harvard.edu/intranet                                                        
+152  61: 1.639e-03 http://www.college.harvard.edu                                                               
+153 202: 1.623e-03 http://www.gse.harvard.edu/~ltc                                                              
+154 361: 1.548e-03 http://www.gse.harvard.edu/~admit                                                            
+155 312: 1.537e-03 http://www.fas.harvard.edu/~asiactr                                                          
+156  77: 1.535e-03 http://www.ksg.harvard.edu/apply                                                             
+157 302: 1.528e-03 http://www.ils.doaks.org                                                                     
+158 293: 1.471e-03 http://hollisweb.harvard.edu                                                                 
+159  73: 1.469e-03 http://www.ksg.harvard.edu/news/experts/glickman_state_of_the_union_012903.htm               
+160 192: 1.456e-03 http://www.gse.harvard.edu/library                                                           
+161 336: 1.436e-03 http://www.uis.harvard.edu/technology_services/specials/applelogin.php                       
+162 337: 1.436e-03 http://www.cait.harvard.edu/PC_letter1.doc                                                   
+163 211: 1.436e-03 http://www.gse.harvard.edu/alumni/classnotes                                                 
+164 212: 1.436e-03 http://www.gse.harvard.edu/alumni/services                                                   
+165  88: 1.419e-03 http://ksgnotes1.harvard.edu/faculty                                                         
+166 153: 1.382e-03 http://www.hms.harvard.edu/it                                                                
+167 221: 1.374e-03 http://gseweb.harvard.edu/search                                                             
+168 226: 1.359e-03 http://www.gse.harvard.edu/~src_web                                                          
+169  45: 1.351e-03 http://www.news.harvard.edu/gazette/2003/01.16/01-financialaid.html                          
+170 144: 1.326e-03 http://www.hmcnet.harvard.edu/pathol                                                         
+171 164: 1.320e-03 http://www.mgh.harvard.edu                                                                   
+172  31: 1.312e-03 http://nrs.harvard.edu/urn-3:hul.eresource:hollisct                                          
+173 110: 1.311e-03 http://internal.law.harvard.edu/adviser                                                      
+174 111: 1.311e-03 http://www.law.harvard.edu/events                                                            
+175 112: 1.311e-03 http://www.law.harvard.edu/Administrative_Services/Registrar/Bulletin/academic_calendar.shtml
+176 113: 1.311e-03 http://internal.law.harvard.edu/adviser/submit.html                                          
+177 114: 1.311e-03 http://i-cuisines.com/SodexhoCafe/Harkness                                                   
+178  93: 1.307e-03 http://www.cglv.hbs.edu                                                                      
+179  94: 1.307e-03 http://www.hbsi.hbs.edu/custom/index.htm                                                     
+180  98: 1.307e-03 http://www.hbs.edu/mba/index.html                                                            
+181  99: 1.307e-03 http://www.alumni.hbs.edu/index.html                                                         
+182 100: 1.307e-03 http://www.exed.hbs.edu/index.html                                                           
+183 109: 1.307e-03 http://www.harvard.edu/siteguide/copyright.html                                              
+184 228: 1.307e-03 http://www.gse.harvard.edu/~admit/directions.html                                            
+185 379: 1.305e-03 http://www.alumni.hbs.edu                                                                    
+186  47: 1.303e-03 http://sid.harvard.edu:8765/query.html                                                       
+187  32: 1.297e-03 http://nrs.harvard.edu/urn-3:hul.eresource:viaxxxxx                                          
+188 283: 1.294e-03 http://www.workingatharvard.org                                                              
+189 115: 1.245e-03 http://www.dce.harvard.edu/extension                                                         
+190 116: 1.245e-03 http://www.dce.harvard.edu/summer                                                            
+191 117: 1.245e-03 http://www.dce.harvard.edu/ssp                                                               
+192 118: 1.245e-03 http://www.dce.harvard.edu/iel                                                               
+193 119: 1.245e-03 http://www.dce.harvard.edu/hilr                                                              
+194 242: 1.242e-03 http://www.enterprisingwomenexhibit.org                                                      
+195 444: 1.237e-03 http://cellbio.med.harvard.edu                                                               
+196  63: 1.234e-03 http://www.deas.harvard.edu                                                                  
+197 303: 1.203e-03 http://hul.harvard.edu/objects/topnav.js                                                     
+198 304: 1.203e-03 http://hul.harvard.edu/objects/links.js                                                      
+199 307: 1.203e-03 http://hul.harvard.edu/objects/copyright.js                                                  
+200 284: 1.198e-03 http://www.radcliffe.edu/schles                                                              
+201 131: 1.191e-03 http://webweekly.hms.harvard.edu                                                             
+202 189: 1.182e-03 http://www.gse.harvard.edu/~catalog                                                          
+203 314: 1.177e-03 http://www.gse.harvard.edu/~hci                                                              
+204 207: 1.176e-03 http://www.gse.harvard.edu/~hepg                                                             
+205  33: 1.155e-03 http://nrs.harvard.edu/urn-3:hul.eresource:oasisxxx                                          
+206  34: 1.155e-03 http://nrs.harvard.edu/urn-3:hul.eresource:hgeodesy                                          
+207  35: 1.155e-03 http://nrs.harvard.edu/urn-3:hul.eresource:harvmitd                                          
+208  36: 1.155e-03 http://nrs.harvard.edu/urn-3:hul.eresource:bakercat                                          
+209  37: 1.155e-03 http://nrs.harvard.edu/urn-3:hul.eresource:dumboaks                                          
+210  38: 1.155e-03 http://195.31.145.6:4505/ALEPH                                                               
+211 285: 1.107e-03 http://www.library.hbs.edu/hc                                                                
+212 265: 1.103e-03 http://www.dana-farber.org/abo/news/press                                                    
+213 268: 1.103e-03 http://www.dana-farber.org/abo/news/pressarchive                                             
+214 269: 1.103e-03 http://www.dana-farber.org/abo/news/facts                                                    
+215 270: 1.103e-03 http://www.dana-farber.org/abo/news/publications                                             
+216 271: 1.103e-03 http://www.dana-farber.org/abo/news/links                                                    
+217 272: 1.103e-03 http://www.dana-farber.org/abo/news/for                                                      
+218 273: 1.103e-03 http://www.dana-farber.org/abo/news/broadcasts                                               
+219 206: 1.078e-03 http://hugse9.harvard.edu/gsedata/calendar_pkg.display_calendar                              
+220  41: 1.078e-03 http://lib.harvard.edu/e-resources/details/f/factivac.html                                   
+221 332: 1.071e-03 http://gocrimson.ocsn.com/sports/m-baskbl/sched/harv-m-baskbl-sched.html                     
+222 333: 1.071e-03 http://gocrimson.ocsn.com/ot/sesquicentennial.html                                           
+223 334: 1.071e-03 http://www.ocsn.com/cgi-bin/census/census.cgi                                                
+224 139: 1.062e-03 http://sbweb.med.harvard.edu/~bcmp                                                           
+225 143: 1.062e-03 http://neuro.med.harvard.edu                                                                 
+226  60: 1.061e-03 http://www.fas.harvard.edu/home/menu.js                                                      
+227  64: 1.061e-03 http://www.fas.harvard.edu/home/news_and_events/topstory.html                                
+228  65: 1.061e-03 http://www.news.harvard.edu/gazette/2003/01.30/03-cohen.html                                 
+229  66: 1.061e-03 http://www.news.harvard.edu/gazette/2003/01.30/04-hasty.html                                 
+230 383: 1.057e-03 http://www.ksg.harvard.edu/alum                                                              
+231 136: 1.055e-03 http://www.hms.harvard.edu/md_phd/index.html                                                 
+232 160: 1.055e-03 http://www.dfci.harvard.edu                                                                  
+233 294: 1.038e-03 http://hul.harvard.edu/ois/systems/oasis                                                     
+234 299: 1.038e-03 http://vdc-prod.hmdc.harvard.edu/VDC/index.jsp                                               
+235 394: 1.028e-03 http://www.arp.harvard.edu                                                                   
+236 360: 1.027e-03 http://www.gsas.harvard.edu/admissions                                                       
+237 175: 1.024e-03 http://www.hds.harvard.edu/cswr                                                              
+238 140: 1.020e-03 http://cbweb.med.harvard.edu/default.html                                                    
+239 288: 1.019e-03 http://hul.harvard.edu/huarc                                                                 
+240 250: 1.017e-03 http://www.news.harvard.edu/gazette/2003/01.09/news.html                                     
+241 251: 1.017e-03 http://www.news.harvard.edu/gazette/2003/01.09/science.html                                  
+242 252: 1.017e-03 http://www.news.harvard.edu/gazette/2003/01.09/profiles.html                                 
+243 253: 1.017e-03 http://www.news.harvard.edu/gazette/2003/01.09/community.html                                
+244 254: 1.017e-03 http://www.news.harvard.edu/gazette/2003/01.09/sports.html                                   
+245 255: 1.017e-03 http://www.news.harvard.edu/gazette/2003/01.09/campus.html                                   
+246 256: 1.017e-03 http://www.news.harvard.edu/gazette/2003/01.09/arts.html                                     
+247 141: 1.011e-03 http://genetics.med.harvard.edu                                                              
+248 146: 1.011e-03 http://www.hcp.med.harvard.edu                                                               
+249 180: 9.920e-04 http://www.hds.harvard.edu/dpa/news/calendar.html                                            
+250  75: 9.841e-04 http://www.ksg.harvard.edu/research/working_papers/index.htm                                 
+251  78: 9.841e-04 http://ksghome.harvard.edu/~.jnye.dean.ksg/visitingcom                                       
+252  79: 9.841e-04 http://www.ksg.harvard.edu/ksgpress/bulletin                                                 
+253  80: 9.841e-04 http://www.ksg.harvard.edu/ksgpress/students/directns.htm                                    
+254  82: 9.841e-04 http://www.ksg.harvard.edu/giving                                                            
+255  83: 9.841e-04 http://ksgnotes1.harvard.edu/outdisc/Emergenc.nsf/Announcements                              
+256  86: 9.841e-04 http://www.ksg.harvard.edu/ksgtoday                                                          
+257  89: 9.841e-04 http://www.execprog.com/home.asp                                                             
+258  91: 9.841e-04 http://www.ksgcase.harvard.edu                                                               
+259 195: 9.779e-04 http://gseweb.harvard.edu/~conf                                                              
+260 196: 9.779e-04 http://gseweb.harvard.edu/~osa                                                               
+261 197: 9.779e-04 http://gseweb.harvard.edu/~ltc                                                               
+262 198: 9.779e-04 http://gseweb.harvard.edu/students.html#careerresources                                      
+263 203: 9.779e-04 http://www.gse.harvard.edu/faculty.html                                                      
+264 204: 9.779e-04 http://gseweb.harvard.edu/~oasweb/positions.html                                             
+265 213: 9.779e-04 http://www.gse.harvard.edu/prodev.html                                                       
+266 219: 9.779e-04 http://www.gse.harvard.edu/use.html                                                          
+267 220: 9.779e-04 http://www.gse.harvard.edu/administrative.html                                               
+268 127: 9.730e-04 http://www.hms.harvard.edu/hr                                                                
+269 421: 9.671e-04 http://www.hbs.edu/fac                                                                       
+270 391: 9.666e-04 http://www.amrep.org                                                                         
+271 142: 9.606e-04 http://www.hms.harvard.edu/dms/bbs/micro                                                     
+272 145: 9.606e-04 http://www.hms.harvard.edu/ambulatory/dacp.html                                              
+273 311: 9.583e-04 http://www.provost.harvard.edu/it_fund                                                       
+274  48: 9.498e-04 http://www.google.com/u/harvarduis                                                           
+275  49: 9.498e-04 http://www.google.com                                                                        
+276  50: 9.498e-04 http://www.fas.harvard.edu/cgi-bin/phones                                                    
+277  51: 9.498e-04 http://www.uis.harvard.edu/telecom                                                           
+278  53: 9.498e-04 http://www.harvard.edu/listing                                                               
+279  54: 9.498e-04 http://www.harvard.edu/academics/academicdepts.html                                          
+280  55: 9.498e-04 http://www.harvard.edu/academics/research.html                                               
+281  56: 9.498e-04 http://www.harvard.edu/administration/adminlist.html                                         
+282  57: 9.498e-04 http://www.hcs.harvard.edu/directory/index.shtml                                             
+283  58: 9.498e-04 http://www.harvard.edu/help/noframes/faq12_nf.html                                           
+284  59: 9.498e-04 http://www.uis.harvard.edu/telecom/directory/bldgs/bldg.html                                 
+285 186: 9.251e-04 http://www.gse.harvard.edu/financialaid                                                      
+286 308: 9.202e-04 http://hul.harvard.edu/objects/address.js                                                    
+287 227: 9.108e-04 http://www.gse.harvard.edu/~aocc                                                             
+288 310: 9.098e-04 http://www.cid.harvard.edu/events/africa_sem.html                                            
+289 313: 9.098e-04 http://www.international.harvard.edu                                                         
+290  67: 9.009e-04 http://www.ksg.harvard.edu/news/ksg_in_the_news_013103.htm                                   
+291  68: 9.009e-04 http://www.ksg.harvard.edu/news/ethiopia_project_013002.htm                                  
+292  69: 9.009e-04 http://www.ksg.harvard.edu/news/opeds/walt_saddam_box_nyt_020203.htm                         
+293  70: 9.009e-04 http://www.ksg.harvard.edu/news/experts/kayyem_shoe_bomber_013103.htm                        
+294  71: 9.009e-04 http://www.ksg.harvard.edu/news/opeds/euchner_overhaul_state_020203.htm                      
+295  72: 9.009e-04 http://www.ksg.harvard.edu/news/korea_forum_013002.htm                                       
+296  74: 9.009e-04 http://www.ksg.harvard.edu/press/iopfellows_spring2003.htm                                   
+297  81: 9.009e-04 http://www.ksg.harvard.edu/news/announcements                                                
+298  90: 9.009e-04 http://www.ksg.harvard.edu/TS/coursepage.htm                                                 
+299 380: 8.832e-04 http://www.hsdm.med.harvard.edu/pages/alumni/alumni.html                                     
+300 382: 8.832e-04 http://www.hms.harvard.edu/alumni                                                            
+301 243: 8.747e-04 http://www.radcliffe.edu/vpi                                                                 
+302 244: 8.747e-04 http://www.radcliffe.edu/murray/evntnews/brbgsp03.htm                                        
+303 245: 8.747e-04 http://www.radcliffe.edu/news/pr/030128_david.html                                           
+304 246: 8.747e-04 http://www.radcliffe.edu/quarterly/200301                                                    
+305 247: 8.747e-04 http://www.radcliffe.edu/events/lectures/2003_dean.html#guth                                 
+306 248: 8.747e-04 http://www.radcliffe.edu/fellowships/events/index.html#rocheleau                             
+307 295: 8.742e-04 http://hgl.harvard.edu/keywordhelp.html                                                      
+308 296: 8.742e-04 http://hgl.harvard.edu/titlehelp.html                                                        
+309 297: 8.742e-04 http://hgl.harvard.edu/authorhelp.html                                                       
+310 301: 8.742e-04 http://www.library.hbs.edu/genref/libraries.htm                                              
+311 483: 8.654e-04 http://www.gse.harvard.edu/~genderstudies                                                    
+312 492: 8.654e-04 http://www.gse.harvard.edu/~highered                                                         
+313 456: 8.394e-04 http://www.hms.harvard.edu/dms                                                               
+314 155: 8.353e-04 http://www.partners.org/bwh                                                                  
+315 159: 8.353e-04 http://www.childrenshospital.org                                                             
+316 163: 8.353e-04 http://www.meei.harvard.edu                                                                  
+317 305: 8.303e-04 http://hcl.harvard.edu/news/stories/shoes.html                                               
+318 306: 8.303e-04 http://www.ala.org/events/annual2003                                                         
+319 458: 8.260e-04 http://www.fas.harvard.edu/~ealc                                                             
+320 460: 8.250e-04 http://www.economics.harvard.edu                                                             
+321 147: 8.212e-04 http://www.hms.harvard.edu/dsm                                                               
+322 188: 7.963e-04 http://www.gse.harvard.edu/welcome                                                           
+323 193: 7.963e-04 http://www.gse.harvard.edu/library/*RS/research-services.html                                
+324 199: 7.963e-04 http://gseweb.harvard.edu/students.html                                                      
+325 205: 7.963e-04 http://gseweb.harvard.edu/news                                                               
+326 209: 7.963e-04 http://www.gse.harvard.edu/pubs.html                                                         
+327 215: 7.963e-04 http://www.gse.harvard.edu/news/features/merseth02012003.html                                
+328 216: 7.963e-04 http://www.civilrightsproject.harvard.edu/news/pressreleases.php/record_id=27                
+329 217: 7.963e-04 http://www.onpointradio.org/shows/2003/01/20030120_b_main.asp                                
+330 218: 7.963e-04 http://www.news.harvard.edu/gazette/daily/0301/15-finaid.html                                
+331 224: 7.963e-04 http://hugse9.harvard.edu/gsedata/calendar_pkg.forums#2062                                   
+332 366: 7.903e-04 http://www.gse.harvard.edu/~ncsall                                                           
+333 487: 7.895e-04 http://www.gse.harvard.edu/~nap                                                              
+334 124: 7.705e-04 http://www.med.harvard.edu/alumni.html                                                       
+335 125: 7.705e-04 http://www.med.harvard.edu/publications/pubs.html                                            
+336 128: 7.705e-04 http://www.hms.harvard.edu/student                                                           
+337 134: 7.705e-04 http://www.hms.harvard.edu/md/index.html                                                     
+338 135: 7.705e-04 http://www.hms.harvard.edu/dms/phdprograms.html                                              
+339 137: 7.705e-04 http://www.hms.harvard.edu/dualdegrees/index.html                                            
+340 149: 7.705e-04 http://www.hms.harvard.edu/cdi                                                               
+341 151: 7.705e-04 http://www.hms.harvard.edu/diversity                                                         
+342 152: 7.705e-04 http://www.hms.harvard.edu/fa                                                                
+343 154: 7.705e-04 http://www.bidmc.harvard.edu                                                                 
+344 156: 7.705e-04 http://www.va.gov/525brockton                                                                
+345 157: 7.705e-04 http://www.challiance.org                                                                    
+346 158: 7.705e-04 http://sprsgi.med.harvard.edu                                                                
+347 162: 7.705e-04 http://www.joslin.org                                                                        
+348 165: 7.705e-04 http://www.mcleanhospital.org                                                                
+349 166: 7.705e-04 http://www.mtauburn.caregroup.org                                                            
+350 167: 7.705e-04 http://www.eri.harvard.edu                                                                   
+351 168: 7.705e-04 http://spauldingrehab.org                                                                    
+352 407: 7.548e-04 http://www.fas.harvard.edu/~ofa                                                              
+353 414: 7.455e-04 http://cfa-www.harvard.edu                                                                   
+354 354: 7.453e-04 http://www.gse.harvard.edu/~apsp                                                             
+355 374: 7.453e-04 http://www.aids.harvard.edu                                                                  
+356 498: 7.366e-04 http://www.gse.harvard.edu/~hdp                                                              
+357 257: 7.306e-04 http://www.president.harvard.edu/speeches/2003/columbia.html                                 
+358 417: 7.194e-04 http://www.fas.harvard.edu/~athletic                                                         
+359 353: 7.190e-04 http://www.hms.harvard.edu/doa                                                               
+360 373: 7.190e-04 http://www.hms.harvard.edu/aging                                                             
+361 365: 7.130e-04 http://adm-is.fas.harvard.edu                                                                
+362 363: 6.868e-04 http://www.hms.harvard.edu/admissions                                                        
+363 435: 6.859e-04 http://www.gsas.harvard.edu/academic/departments/programs/bsdm.html                          
+364 289: 6.783e-04 http://www.artmuseums.harvard.edu                                                            
+365 292: 6.783e-04 http://www.peabody.harvard.edu                                                               
+366 401: 6.778e-04 http://www.arboretum.harvard.edu                                                             
+367 341: 6.763e-04 http://www.cait.harvard.edu                                                                  
+368 388: 6.712e-04 http://www.ksg.harvard.edu/hpaied                                                            
+369 286: 6.696e-04 http://www.law.harvard.edu/library/special/index.htm                                         
+370 287: 6.696e-04 http://hcl.harvard.edu/finearts/sdi.html                                                     
+371 290: 6.696e-04 http://hcl.harvard.edu/harvard-yenching                                                      
+372 291: 6.696e-04 http://www.gsd.harvard.edu/library/visres/visres.htm                                         
+373 477: 6.555e-04 http://www.gse.harvard.edu/~fep                                                              
+374 348: 6.471e-04 http://www.hbs.edu/units/ac                                                                  
+375 441: 6.463e-04 http://www.hbs.edu/units/bgie                                                                
+376 465: 6.463e-04 http://www.hbs.edu/units/em                                                                  
+377 478: 6.463e-04 http://www.hbs.edu/units/finance                                                             
+378 484: 6.463e-04 http://www.hbs.edu/units/gm                                                                  
+379 424: 6.381e-04 http://www.ksg.harvard.edu/programs                                                          
+380 338: 6.278e-04 http://www.dining.harvard.edu/frameset_cat.html                                              
+381 339: 6.278e-04 http://www.uis.harvard.edu/server_hosting/hosting_monitoring.php                             
+382 340: 6.278e-04 http://www.hfc.harvard.edu/functions                                                         
+383 342: 6.278e-04 http://www.harvard.edu/infotech                                                              
+384 343: 6.278e-04 http://www.cait.harvard.edu/training/competencies.php                                        
+385 429: 6.235e-04 http://web-dubois.fas.harvard.edu                                                            
+386 309: 6.235e-04 http://nrs.harvard.edu/urn-3:hul.eresource:factivac                                          
+387 345: 6.043e-04 http://www.abcd.harvard.edu                                                                  
+388 389: 5.999e-04 http://www.fas.harvard.edu/english                                                           
+389 397: 5.999e-04 http://www.wjh.harvard.edu/anthro                                                            
+390 446: 5.912e-04 http://www.chem.harvard.edu                                                                  
+391 452: 5.912e-04 http://icg.harvard.edu/~core                                                                 
+392 486: 5.912e-04 http://www.gov.harvard.edu                                                                   
+393 387: 5.881e-04 http://www.fas.harvard.edu/~cwc                                                              
+394 419: 5.881e-04 http://www.as.harvard.edu                                                                    
+395 423: 5.872e-04 http://www.hds.harvard.edu/apc.html                                                          
+396 466: 5.872e-04 http://environment.harvard.edu                                                               
+397 491: 5.872e-04 http://www.fas.harvard.edu/~healthpl                                                         
+398 371: 5.636e-04 http://www.fas.harvard.edu/~cafrica                                                          
+399 376: 5.636e-04 http://www.fas.harvard.edu/~iaas                                                             
+400 386: 5.636e-04 http://www.fas.harvard.edu/~amciv                                                            
+401 408: 5.636e-04 http://www.gse.harvard.edu/~aie_web                                                          
+402 413: 5.636e-04 http://cfa-www.harvard.edu/hco/astron.html                                                   
+403 346: 5.558e-04 http://able.harvard.edu                                                                      
+404 347: 5.558e-04 http://www.laspau.harvard.edu                                                                
+405 349: 5.558e-04 http://learnweb.harvard.edu/alps                                                             
+406 350: 5.558e-04 http://adams.student.harvard.edu                                                             
+407 351: 5.558e-04 http://www.adapt.harvard.edu                                                                 
+408 352: 5.558e-04 http://www.fas.harvard.edu/~ims                                                              
+409 355: 5.558e-04 http://www.fas.harvard.edu/~fasadapt                                                         
+410 356: 5.558e-04 http://www.gse.harvard.edu/~admin                                                            
+411 357: 5.558e-04 http://www.hbs.edu/mba/admissions.html                                                       
+412 359: 5.558e-04 http://www.gsd.harvard.edu/admissions                                                        
+413 362: 5.558e-04 http://www.law.harvard.edu/Admissions                                                        
+414 364: 5.558e-04 http://www.hsph.harvard.edu/admissions.html                                                  
+415 367: 5.558e-04 http://www.gsd.harvard.edu/academic/asp                                                      
+416 368: 5.558e-04 http://www.amrep.org/iatt                                                                    
+417 369: 5.558e-04 http://www.oap.harvard.edu/DivDir/diversity.html                                             
+418 370: 5.558e-04 http://www.fas.harvard.edu/~afroam                                                           
+419 372: 5.558e-04 http://www.fas.harvard.edu/~ofa/programs/theater/schedule.html                               
+420 375: 5.558e-04 http://www.aids.harvard.edu/publications/har/index.html                                      
+421 377: 5.558e-04 http://www.gsas.harvard.edu/alumni                                                           
+422 378: 5.558e-04 http://www.gsd.harvard.edu/inside/dev_alumni                                                 
+423 381: 5.558e-04 http://www.law.harvard.edu/alumni                                                            
+424 384: 5.558e-04 http://www.hsph.harvard.edu/alumni                                                           
+425 390: 5.558e-04 http://caps.gov.harvard.edu                                                                  
+426 392: 5.558e-04 http://www.law.harvard.edu/programs/ames_foundation/main.html                                
+427 393: 5.558e-04 http://www.kinetics.harvard.edu                                                              
+428 395: 5.558e-04 http://www.hmcnet.harvard.edu/anesthesia                                                     
+429 396: 5.558e-04 http://www.law.harvard.edu/programs/annual_review                                            
+430 398: 5.558e-04 http://www.deas.harvard.edu/graduate                                                         
+431 399: 5.558e-04 http://www.huaquatics.harvard.edu                                                            
+432 400: 5.558e-04 http://billie.harvard.edu                                                                    
+433 402: 5.558e-04 http://www.gsd.harvard.edu/academic/arch                                                     
+434 403: 5.558e-04 http://www.gsd.harvard.edu/academic/la                                                       
+435 404: 5.558e-04 http://www.huh.harvard.edu/libraries/arnold.htm                                              
+436 405: 5.558e-04 http://www.arts-civic.org                                                                    
+437 406: 5.558e-04 http://wodewick.fas.harvard.edu                                                              
+438 409: 5.558e-04 http://www.ap.harvard.edu                                                                    
+439 410: 5.558e-04 http://www.ksg.harvard.edu/cbg/asia                                                          
+440 411: 5.558e-04 http://www.gse.harvard.edu/forums                                                            
+441 412: 5.558e-04 http://www.oap.harvard.edu                                                                   
+442 415: 5.558e-04 http://cfa-www.harvard.edu/library                                                           
+443 416: 5.558e-04 http://cfa-www.harvard.edu/cfa/tad                                                           
+444 418: 5.558e-04 http://www.fas.harvard.edu/~atlantic                                                         
+445 420: 5.549e-04 http://www.fas.harvard.edu/academics/departments/all.html                                    
+446 422: 5.549e-04 http://www.gsd.harvard.edu/academic                                                          
+447 425: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups                                          
+448 426: 5.549e-04 http://www.hms.harvard.edu/bss                                                               
+449 427: 5.549e-04 http://www.hsph.harvard.edu/about.html#departments                                           
+450 428: 5.549e-04 http://www.gsd.harvard.edu/depts/asp                                                         
+451 430: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/antitrust.php                            
+452 431: 5.549e-04 http://www.deas.harvard.edu/undergraduate/applied_math/index.html                            
+453 432: 5.549e-04 http://www.gsd.harvard.edu/depts/archdept                                                    
+454 433: 5.549e-04 http://www-hugsas.harvard.edu/webfiles/admis/socsci/archtect.htm                             
+455 434: 5.549e-04 http://bcmp.med.harvard.edu                                                                  
+456 436: 5.549e-04 http://www.gsas.harvard.edu/academic/departments/programs/bsph.html                          
+457 437: 5.549e-04 http://www.deas.harvard.edu/undergraduate/engineering_sciences/biomedical.html               
+458 438: 5.549e-04 http://twod.med.harvard.edu/labgc/biophysics                                                 
+459 439: 5.549e-04 http://www.biostat.harvard.edu                                                               
+460 440: 5.549e-04 http://www.gsas.harvard.edu/academic/departments/programs/busecon.html                       
+461 442: 5.549e-04 http://www.gsas.harvard.edu/academic/departments/programs/special.html                       
+462 443: 5.549e-04 http://www.hsph.harvard.edu/Academics/ccb/index.html                                         
+463 445: 5.549e-04 http://www.gsas.harvard.edu/academic/departments/programs/chemphys.html                      
+464 447: 5.549e-04 http://www.fas.harvard.edu/~classics                                                         
+465 448: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/commercial.php                           
+466 449: 5.549e-04 http://www.gsas.harvard.edu/academic/departments/programs/complit.html                       
+467 450: 5.549e-04 http://www.deas.harvard.edu/undergraduate/computer_science/index.html                        
+468 451: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/constitution.php                         
+469 453: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/corporate.php                            
+470 454: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/criminal.php                             
+471 455: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/cyberlaw.php                             
+472 457: 5.549e-04 http://www.eps.harvard.edu                                                                   
+473 459: 5.549e-04 http://www.fas.harvard.edu/~eas                                                              
+474 461: 5.549e-04 http://www.deas.harvard.edu/undergraduate/engineering_sciences/electrical.html               
+475 462: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/employment.php                           
+476 464: 5.549e-04 http://www.deas.harvard.edu/undergraduate/engineering_sciences/index.html                    
+477 467: 5.549e-04 http://www.hsph.harvard.edu/Academics/eh/index.html                                          
+478 468: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/environment.php                          
+479 469: 5.549e-04 http://environment.harvard.edu/espp                                                          
+480 470: 5.549e-04 http://www.deas.harvard.edu/undergraduate/engineering_sciences/environmental.html            
+481 471: 5.549e-04 http://www.hsph.harvard.edu/Academics/epidem                                                 
+482 472: 5.549e-04 http://www.fas.harvard.edu/~cesh                                                             
+483 473: 5.549e-04 http://www.gse.harvard.edu/~admit/progs-edm-mi-etp.html                                      
+484 474: 5.549e-04 http://www.fas.harvard.edu/~expos                                                            
+485 475: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/family.php                               
+486 476: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/federal.php                              
+487 479: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/financial.php                            
+488 480: 5.549e-04 http://www.fas.harvard.edu/~folkmyth                                                         
+489 481: 5.549e-04 http://www.gsas.harvard.edu/academic/departments/programs/forestry.html                      
+490 482: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/gender.php                               
+491 485: 5.549e-04 http://www.fas.harvard.edu/~german                                                           
+492 488: 5.549e-04 http://www.hsph.harvard.edu/Academics/hsb/index.html                                         
+493 489: 5.549e-04 http://www.law.harvard.edu/students/catalog/cgroups/health.php                               
+494 490: 5.549e-04 http://www.hsph.harvard.edu/Academics/hpm/index.html                                         
+495 493: 5.549e-04 http://www.fas.harvard.edu/~heal/HEAL.html                                                   
+496 494: 5.549e-04 http://www.fas.harvard.edu/~histlit                                                          
+497 495: 5.549e-04 http://www.fas.harvard.edu/~history                                                          
+498 496: 5.549e-04 http://www.fas.harvard.edu/~hoart                                                            
+499 497: 5.549e-04 http://www.fas.harvard.edu/~hsdept                                                           
+500 499: 5.549e-04 http://www.hsph.harvard.edu/Academics/iid/index.html                                         
+
+Prob = 
+
+  struct with fields:
+
+      name: 'SNAP/web-Google'
+     title: 'Web graph from Google'
+         A: [916428×916428 double]
+        id: 2301
+      date: '2002'
+    author: 'Google'
+        ed: 'J. Leskovec'
+      kind: 'directed graph'
+     notes: [37×79 char]
+
+Networks from SNAP (Stanford Network Analysis Platform) Network Data Sets,     
+Jure Leskovec http://snap.stanford.edu/data/index.html                         
+email jure at cs.stanford.edu                                                  
+                                                                               
+Google web graph                                                               
+                                                                               
+Dataset information                                                            
+                                                                               
+Nodes represent web pages and directed edges represent hyperlinks between them.
+The data was released in 2002 by Google as a part of Google Programming        
+Contest.                                                                       
+                                                                               
+Dataset statistics                                                             
+Nodes   875713                                                                 
+Edges   5105039                                                                
+Nodes in largest WCC    855802 (0.977)                                         
+Edges in largest WCC    5066842 (0.993)                                        
+Nodes in largest SCC    434818 (0.497)                                         
+Edges in largest SCC    3419124 (0.670)                                        
+Average clustering coefficient  0.6047                                         
+Number of triangles     13391903                                               
+Fraction of closed triangles    0.05523                                        
+Diameter (longest shortest path)    22                                         
+90-percentile effective diameter    8.1                                        
+                                                                               
+Source (citation)                                                              
+                                                                               
+J. Leskovec, K. Lang, A. Dasgupta, M. Mahoney. Community Structure in Large    
+Networks: Natural Cluster Sizes and the Absence of Large Well-Defined Clusters.
+arXiv.org:0810.1355, 2008.                                                     
+                                                                               
+Google programming contest, 2002                                               
+http://www.google.com/programming-contest/                                     
+                                                                               
+Files                                                                          
+File    Description                                                            
+web-Google.txt.gz   Webgraph from the Google programming contest, 2002         
+Elapsed time is 4.123187 seconds.
+# iterations: 53
+
+ans =
+
+    1.0000
